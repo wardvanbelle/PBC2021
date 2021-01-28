@@ -1,0 +1,1 @@
+the amount of human seq that contain aa_long is 6
