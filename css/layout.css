@@ -1,7 +1,13 @@
 body{
-    background-color: cornflowerblue;
+    background-color: rgb(143, 218, 189);
 }
 
 h1{
-    color:darkorange;
+    color:rgb(100, 66, 25);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#line1{
+    border-bottom: 5px darkslateblue;
+    padding-bottom: 5px;
 }
