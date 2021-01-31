@@ -3,7 +3,7 @@ body {
 }
 
 #header {
-    background-color: rgb(255, 220, 176);
+    background-color: #ffdcb0;
     border: 2px solid rgb(100, 66, 25);
     padding: 5px;
     margin: 5px;
@@ -34,4 +34,11 @@ body {
 
 #socials {
     margin-bottom: 10px;
+}
+
+#socialpics {
+    height: 50px;
+    width: 50px;
+    /*https://codepen.io/sosuke/pen/Pjoqqp to choose color*/
+    filter: invert(95%) sepia(31%) saturate(3743%) hue-rotate(296deg) brightness(108%) contrast(138%);
 }
