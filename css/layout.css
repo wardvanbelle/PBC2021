@@ -1,14 +1,37 @@
-body{
+body {
     background-color: rgb(143, 218, 189);
 }
 
-#title{
+#header {
+    background-color: rgb(255, 220, 176);
+    border: 2px solid rgb(100, 66, 25);
+    padding: 5px;
+    margin: 5px;
+}
+
+#titleblock {
+    border-right: 2px solid rgb(100, 66, 25);
+    padding-right: 5px;
+}
+
+#title {
     color:rgb(100, 66, 25);
+    font-weight: bold;
     text-align: center;
     padding-bottom: 5px;
 }
 
-#subtitle{
+#subtitle {
     color:rgba(100, 66, 25, 0.705);
     text-align: center;
+}
+
+#pfpic {
+    height: 100px;
+    width: 100px;
+    border-radius: 40%;
+}
+
+#socials {
+    margin-bottom: 10px;
 }
