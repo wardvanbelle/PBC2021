@@ -2,12 +2,13 @@ body{
     background-color: rgb(143, 218, 189);
 }
 
-h1{
+#title{
     color:rgb(100, 66, 25);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding-bottom: 5px;
 }
 
-#line1{
-    border-bottom: 5px darkslateblue;
-    padding-bottom: 5px;
+#subtitle{
+    color:rgba(100, 66, 25, 0.705);
+    text-align: center;
 }
