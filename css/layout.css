@@ -9,6 +9,7 @@
 
 body {
     background-color:#50A2A7;
+    color: #1C110A
 }
 
 #header {
@@ -24,7 +25,6 @@ body {
 }
 
 #title {
-    color:#1C110A;
     font-weight: bold;
     text-align: center;
     padding-bottom: 5px;
@@ -41,8 +41,21 @@ body {
     border-radius: 40%;
 }
 
-#socials {
-    margin-bottom: 10px;
+#challenges {
+    border: 2px solid #E9B44C;
+}
+
+#challengecode {
+    color: #9B2915
+}
+
+#coltitle {
+    color: #E9B44C;
+}
+
+#footer {
+    padding-top: 10px;
+    padding-bottom: 5px;
 }
 
 #socialpics {
