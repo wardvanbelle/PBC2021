@@ -1,28 +1,37 @@
+/* color palette:
+#1C110A: black
+#E4D6A7: semi-white
+#E9B44C: yellow
+#50A2A7: blue
+#9B2915: red 
+*/
+
+
 body {
-    background-color: rgb(143, 218, 189);
+    background-color:#50A2A7;
 }
 
 #header {
-    background-color: #ffdcb0;
-    border: 2px solid rgb(100, 66, 25);
+    background-color: #E4D6A7 ;
+    border: 2px solid #E9B44C;
     padding: 5px;
     margin: 5px;
 }
 
 #titleblock {
-    border-right: 2px solid rgb(100, 66, 25);
+    border-right: 2px solid #E9B44C;
     padding-right: 5px;
 }
 
 #title {
-    color:rgb(100, 66, 25);
+    color:#1C110A;
     font-weight: bold;
     text-align: center;
     padding-bottom: 5px;
 }
 
 #subtitle {
-    color:rgba(100, 66, 25, 0.705);
+    color: #1c110acb;
     text-align: center;
 }
 
@@ -40,5 +49,5 @@ body {
     height: 50px;
     width: 50px;
     /*https://codepen.io/sosuke/pen/Pjoqqp to choose color*/
-    filter: invert(95%) sepia(31%) saturate(3743%) hue-rotate(296deg) brightness(108%) contrast(138%);
+    filter: invert(17%) sepia(74%) saturate(1961%) hue-rotate(347deg) brightness(104%) contrast(98%);
 }
