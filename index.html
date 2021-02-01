@@ -29,8 +29,12 @@
       <div class="col">
         <h2 id="coltitle">Challenge 1</h2>
         <p>
-          This challenge was all about...
-          "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure repr
+          This challenge was all about starting your journey into the world of bioinformatics. We got a bit of text from a webpage that was supplied. 
+          The only thing that was visible to us was a long string (which looked like a gen sequence) and an input slot in which we could fill in our answer.
+          When we looked at the sourcecode of the site we could see that there was a hidden file. When we looked at the filename, it became clear that we needed to use jalview in combination with some filters.
+          Once jalview was installed and the right filters were applied a sentence appeared on top of the sequence.
+          The sentence read 'Which gene makes you the fastest man alive'. One google search further we learned that this was infact the 'ACTN3' gene.
+          This was indeed the answer to the first challenge which in consequence unlocked the second one.
         </p>
         <h4>Code:</h4>
         <p>
@@ -40,8 +44,13 @@
       <div class="col">
         <h2 id="coltitle">Challenge 2</h2>
         <p>
-          This challenge was all about...
-          "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure repr
+          For this challenge we actually needed to code. On first look we got a file named IDs.txt and a webpage with a long proteinsequence. 
+          We also got the cryptic message 'SUCCES = 19 21 3 3 5 19'. This indicated that we somehow needed to find a sequnce of numbers which would lead to the answer when transformed.
+          The first real challenge was to download the webpage and scrape it for the proteinsequence while removing unneccessary html coding parts.
+          When this was done we could program a simple sequence searcher for the given sequences that match the ID's. The amount of matches for each ID sequence gave a sequence of numbers.
+          This number sequence when translated to letters gave the words 'who is the fastest man alive'. Of course (at the time) this is Usain Bolt.
+          We tought it was over but when inserting this we always got the message that the answer was wrong. After asking for a clue we were told that we had to remember that every answer should be given in a certain format.
+          This format is al caps and no spaces. So the actual answer was actually 'USAINBOLT'. Inserting this lead us to the third and last challenge. 
         </p>
         <h4>Code:</h4>
         <p>
@@ -51,8 +60,13 @@
       <div class="col">
         <h2 id="coltitle">Challenge 3</h2>
         <p>
-          This challenge was all about...
-          "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure repr
+          The last challenge was on another level. We were given a sequence and a link to a nature paper. This paper was first and foremost very interesting. 
+          This paper spoke about using a DNA sequence to save some kind of information. This information could then be turned into tris code and next into ASCII code.
+          So the challenge here was to make a program that could decipher the given DNA sequence into readable ASCII.
+          After a lot of hours trying to find a way to translate this we found it! But instead of finding an answer we were faced with another question.
+          In how many swissprot human genes do you find the 3AA long protein sequence? (I don't know if this was the exact question but it was along these lines.)
+          After donwloading the human proteosome and searching through it with the found sequence, we finally found the answer we were looking for.
+          This marked the end of our bioinformatics adventure but it didn't really stop there and it surely succeeded in tickeling our programming senses.
         </p>
         <h4>Code:</h4>
         <p>
