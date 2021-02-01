@@ -11,6 +11,14 @@
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
   <link rel="stylesheet" href="css/layout.css">
+
+  <script>
+    function mailfeedback() {
+      var mailtext = document.getElementsByClassName('form-control')[0].value;
+      window.open('mailto:wardvanbelle@gmail.com?subject=feedback/question_on_BPCsite&body='+mailtext);
+    }
+
+  </script>
 </head>
 
 <body>
@@ -79,7 +87,7 @@
       <div class="col-lg-6">
         <div class="input-group mb-3">
           <input type="text" class="form-control" placeholder="Feedback/Questions?" aria-label="Feedback/Questions?" aria-describedby="button-addon2">
-          <button type="submit" class="btn btn-secondary" id="button-addon2">submit</button>
+          <button type="submit" class="btn btn-secondary" id="button-addon2" onclick="mailfeedback()">submit</button>
         </div>
       </div>
       <div class="col-lg-3"></div>
